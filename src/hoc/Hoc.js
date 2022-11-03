@@ -1,0 +1,1 @@
+const Hoc = (props) => props.children;
