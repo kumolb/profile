@@ -218,3 +218,79 @@ input[type=radio] {
 .triangle_div {
     height: 8px !important;
 }
+
+
+.chairback {
+    margin-left: 3px;
+    width: 30px;
+    height: 15px;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+
+/* .chairbottom {
+    width: 56px;
+    height: 30px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-top: -20px;
+} */
+
+.middle {
+    height: 14px;
+    width: 38px;
+    display: flex;
+}
+
+.mid {
+    width: 34px;
+}
+
+.middletop {
+    width: 100%;
+    height: 7px;
+}
+
+.middlebottom {
+    width: 100%;
+    height: 5px;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+
+.leftside {
+    width: 7px;
+    border-right: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+
+.rightside {
+    width: 7px;
+    border-right: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+}
+
+.bottomleft {
+    width: 7px;
+    height: 6px;
+    border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.bottommiddle {
+    width: 22px;
+    height: 6px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.bottomright {
+    width: 7px;
+    height: 6px;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    float: right;
+}

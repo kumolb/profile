@@ -3,7 +3,7 @@ import classes from "./login.module.css";
 import { MdOutlineSettings, MdOutlinePersonOutline, MdMessage, MdOutlineHome, MdOutlineHelpOutline, MdOutlineLogin, MdOutlineLogout } from 'react-icons/md';
 // const opendropdown = true ? classes.dropdown_content : classes.display_none;
 const LogIn = () => {
-    const [openDropDown, setOpenDropDown] = useState(true);
+    const [openDropDown, setOpenDropDown] = useState(false);
     const [nameValue, setNameValue] = useState("");
     const dropDown = openDropDown ? classes.dropdown_content : classes.display_none;
 
@@ -84,6 +84,29 @@ const LogIn = () => {
         {/* <button onClick={() => { logInUser() }}>logIn</button>
         <button onClick={() => { downloadFile() }}>Download</button>
         <button onClick={() => { console.log(token) }}>check token</button> */}
+
+        <div style={{ padding: "30px 40px 40px 40px" }}>
+            <div>
+                <div className={classes.chairback}>
+
+                </div>
+
+                <div className={classes.middle}>
+                    <div className={classes.rightside}></div>
+                    <div className={classes.mid}>
+                        <div className={classes.middletop}></div>
+                        <div className={classes.middlebottom}></div>
+                    </div>
+                    <div className={classes.leftside}></div>
+                </div>
+                <div style={{ display: "flex", backgroundColor: "green" }}>
+                    <div className={classes.bottomleft}></div>
+                    <div className={classes.bottommiddle}></div>
+                    <div className={classes.bottomright}></div>
+                </div>
+            </div>
+
+        </div>
     </div >)
 }
 
