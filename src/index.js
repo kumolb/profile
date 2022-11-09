@@ -6,10 +6,10 @@ import reportWebVitals from './reportWebVitals';
 //import Home from './component/Home';
 // import Form from './component/Form';
 import LogIn from './component/LogIn';
-
+import Main from "./container/Main";
 ReactDOM.render(
   <React.StrictMode>
-    <LogIn />
+    <Main />
   </React.StrictMode>,
   document.getElementById('root')
 );
